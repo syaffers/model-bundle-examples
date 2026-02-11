@@ -1,7 +1,10 @@
 endpoints:
-  - endpoint: /custom-get
+  - endpoint: /models
     http_method: GET
-    function_name: custom_get
-  - endpoint: /custom-post
+    function_name: get_models
+  - endpoint: /v1/detect-image
     http_method: POST
-    function_name: custom_post
+    function_name: detect_image
+  - endpoint: /v1/segment-image
+    http_method: POST
+    function_name: segment_image
